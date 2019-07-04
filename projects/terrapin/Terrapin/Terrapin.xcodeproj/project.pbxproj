@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF547FE61751AE0500E1CDD6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF547FE51751AE0500E1CDD6 /* main.cpp */; };
+		CF547FE81751AE0500E1CDD6 /* Terrapin.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF547FE71751AE0500E1CDD6 /* Terrapin.1 */; };
+		CF5480101751B46B00E1CDD6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF54800F1751B46B00E1CDD6 /* main.cpp */; };
+		CF5480121751B46B00E1CDD6 /* Terrapin_UnitTests.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF5480111751B46B00E1CDD6 /* Terrapin_UnitTests.1 */; };
+		CF54801C1752AEF900E1CDD6 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF54801B1752AEF900E1CDD6 /* gtest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF547FE01751AE0400E1CDD6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CF547FE81751AE0500E1CDD6 /* Terrapin.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CF54800B1751B46B00E1CDD6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CF5480121751B46B00E1CDD6 /* Terrapin_UnitTests.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF547FE21751AE0400E1CDD6 /* Terrapin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Terrapin; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF547FE51751AE0500E1CDD6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CF547FE71751AE0500E1CDD6 /* Terrapin.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Terrapin.1; sourceTree = "<group>"; };
+		CF54800D1751B46B00E1CDD6 /* Terrapin-UnitTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Terrapin-UnitTests"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF54800F1751B46B00E1CDD6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CF5480111751B46B00E1CDD6 /* Terrapin_UnitTests.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Terrapin_UnitTests.1; sourceTree = "<group>"; };
+		CF5480181751FA6A00E1CDD6 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = "../../../../../../../../../Users/erben22/Library/Developer/Xcode/DerivedData/gtest-bmkqvclrsigihabocrtahdsokmgn/Build/Products/Debug/gtest.framework"; sourceTree = "<group>"; };
+		CF54801B1752AEF900E1CDD6 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../../../../../../../../Library/Frameworks/gtest.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF547FDF1751AE0400E1CDD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF54800A1751B46B00E1CDD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF54801C1752AEF900E1CDD6 /* gtest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF547FD91751AE0400E1CDD6 = {
+			isa = PBXGroup;
+			children = (
+				CF54801B1752AEF900E1CDD6 /* gtest.framework */,
+				CF5480181751FA6A00E1CDD6 /* gtest.framework */,
+				CF547FE41751AE0400E1CDD6 /* Terrapin */,
+				CF54800E1751B46B00E1CDD6 /* Terrapin-UnitTests */,
+				CF547FE31751AE0400E1CDD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF547FE31751AE0400E1CDD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF547FE21751AE0400E1CDD6 /* Terrapin */,
+				CF54800D1751B46B00E1CDD6 /* Terrapin-UnitTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF547FE41751AE0400E1CDD6 /* Terrapin */ = {
+			isa = PBXGroup;
+			children = (
+				CF547FE51751AE0500E1CDD6 /* main.cpp */,
+				CF547FE71751AE0500E1CDD6 /* Terrapin.1 */,
+			);
+			path = Terrapin;
+			sourceTree = "<group>";
+		};
+		CF54800E1751B46B00E1CDD6 /* Terrapin-UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF54800F1751B46B00E1CDD6 /* main.cpp */,
+				CF5480111751B46B00E1CDD6 /* Terrapin_UnitTests.1 */,
+			);
+			path = "Terrapin-UnitTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF547FE11751AE0400E1CDD6 /* Terrapin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF547FEB1751AE0500E1CDD6 /* Build configuration list for PBXNativeTarget "Terrapin" */;
+			buildPhases = (
+				CF547FDE1751AE0400E1CDD6 /* Sources */,
+				CF547FDF1751AE0400E1CDD6 /* Frameworks */,
+				CF547FE01751AE0400E1CDD6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Terrapin;
+			productName = Terrapin;
+			productReference = CF547FE21751AE0400E1CDD6 /* Terrapin */;
+			productType = "com.apple.product-type.tool";
+		};
+		CF54800C1751B46B00E1CDD6 /* Terrapin-UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5480131751B46B00E1CDD6 /* Build configuration list for PBXNativeTarget "Terrapin-UnitTests" */;
+			buildPhases = (
+				CF5480091751B46B00E1CDD6 /* Sources */,
+				CF54800A1751B46B00E1CDD6 /* Frameworks */,
+				CF54800B1751B46B00E1CDD6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Terrapin-UnitTests";
+			productName = "Terrapin-UnitTests";
+			productReference = CF54800D1751B46B00E1CDD6 /* Terrapin-UnitTests */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF547FDA1751AE0400E1CDD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CodeBets;
+			};
+			buildConfigurationList = CF547FDD1751AE0400E1CDD6 /* Build configuration list for PBXProject "Terrapin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF547FD91751AE0400E1CDD6;
+			productRefGroup = CF547FE31751AE0400E1CDD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF547FE11751AE0400E1CDD6 /* Terrapin */,
+				CF54800C1751B46B00E1CDD6 /* Terrapin-UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF547FDE1751AE0400E1CDD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF547FE61751AE0500E1CDD6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5480091751B46B00E1CDD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5480101751B46B00E1CDD6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF547FE91751AE0500E1CDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF547FEA1751AE0500E1CDD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF547FEC1751AE0500E1CDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF547FED1751AE0500E1CDD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF5480141751B46B00E1CDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"/Users/erben22/Library/Developer/Xcode/DerivedData/gtest-bmkqvclrsigihabocrtahdsokmgn/Build/Products/Debug\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF5480151751B46B00E1CDD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"/Users/erben22/Library/Developer/Xcode/DerivedData/gtest-bmkqvclrsigihabocrtahdsokmgn/Build/Products/Debug\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF547FDD1751AE0400E1CDD6 /* Build configuration list for PBXProject "Terrapin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF547FE91751AE0500E1CDD6 /* Debug */,
+				CF547FEA1751AE0500E1CDD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF547FEB1751AE0500E1CDD6 /* Build configuration list for PBXNativeTarget "Terrapin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF547FEC1751AE0500E1CDD6 /* Debug */,
+				CF547FED1751AE0500E1CDD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF5480131751B46B00E1CDD6 /* Build configuration list for PBXNativeTarget "Terrapin-UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5480141751B46B00E1CDD6 /* Debug */,
+				CF5480151751B46B00E1CDD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF547FDA1751AE0400E1CDD6 /* Project object */;
+}
